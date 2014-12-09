@@ -1,0 +1,14 @@
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\ShaftTestProject.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\ShaftTestProject.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\AxInterop.KGAXLib.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\KAPITypes.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\nunit.framework.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\nunit.mocks.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\Shaft.exe
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\Shaft.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\nunit.framework.xml
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\Shaft_Accessor.exe
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Release\Shaft_Accessor.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\obj\Release\ShaftTestProject.csprojResolveAssemblyReference.cache
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\obj\Release\ShaftTestProject.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\obj\Release\ShaftTestProject.pdb

@@ -1,0 +1,11 @@
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Debug\Shaft.exe
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Debug\Shaft.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Debug\AxInterop.KGAXLib.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Debug\KAPITypes.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Debug\Shaft.Form1.resources
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Debug\Shaft.Help.resources
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Debug\Shaft.Properties.Resources.resources
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Debug\Shaft.Specification.resources
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Debug\Shaft.csproj.GenerateResource.Cache
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Debug\Shaft.exe
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Debug\Shaft.pdb

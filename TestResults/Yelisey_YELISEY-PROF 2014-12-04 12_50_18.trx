@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="61565c8a-54fe-4970-9089-b255d121439b" name="Yelisey@YELISEY-PROF 2014-12-04 12:50:18" runUser="YELISEY-PROF\Yelisey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="76c1d3dc-dbdc-4067-96fe-7f6ae132dcb8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Yelisey_YELISEY-PROF 2014-12-04 12_50_18">
+      <DeploymentItem filename="C:\Program Files (x86)\ASCON\KOMPAS-3D V14\SDK\C#\Automation\AxInterop.KGAXLib.dll" />
+      <DeploymentItem filename="C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Release\Shaft.exe" />
+      <DeploymentItem filename="C:\Program Files (x86)\ASCON\KOMPAS-3D V14\SDK\C#\Common\KAPITypes.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-04T12:50:18.9677356+06:00" queuing="2014-12-04T12:50:19.0337988+06:00" start="2014-12-04T12:50:19.0408069+06:00" finish="2014-12-04T12:50:19.3080563+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SpecificationManagerConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="6efa7041-0a70-a87d-0252-501a367db3fc">
+      <Execution id="41d8c204-8a7a-495f-a592-856059993057" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationManagerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpecificationManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MainShaftConstructorTest1" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="73b5c701-5b4c-7609-18f0-998d7642eaf6">
+      <Execution id="227a70ab-0496-4a5c-b282-f990bb75713e" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainShaftConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="SpecificationData_InformationForSpecificationConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="97efb2d1-8907-be84-d929-4b8e1fa3252d">
+      <Execution id="143ce5e1-32dd-44f0-8b5d-b84a46750296" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationData_InformationForSpecificationTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpecificationData_InformationForSpecificationConstructorTest" />
+    </UnitTest>
+    <UnitTest name="SpecificationGeneralConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="fb5869dc-1fb4-3106-ead5-f9d228aecce1">
+      <Execution id="d052ae29-a86f-460b-8356-242ac2075f0f" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationGeneralTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpecificationGeneralConstructorTest" />
+    </UnitTest>
+    <UnitTest name="GetCoordForSlotsTestBySixSlots" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="f7adb752-fb77-acd0-2377-b23e85c6a916">
+      <Execution id="43244539-0b6f-49af-894c-439ebbc48ce9" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MathLogicTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCoordForSlotsTestBySixSlots" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6efa7041-0a70-a87d-0252-501a367db3fc" executionId="41d8c204-8a7a-495f-a592-856059993057" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73b5c701-5b4c-7609-18f0-998d7642eaf6" executionId="227a70ab-0496-4a5c-b282-f990bb75713e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97efb2d1-8907-be84-d929-4b8e1fa3252d" executionId="143ce5e1-32dd-44f0-8b5d-b84a46750296" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7adb752-fb77-acd0-2377-b23e85c6a916" executionId="43244539-0b6f-49af-894c-439ebbc48ce9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb5869dc-1fb4-3106-ead5-f9d228aecce1" executionId="d052ae29-a86f-460b-8356-242ac2075f0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="41d8c204-8a7a-495f-a592-856059993057" testId="6efa7041-0a70-a87d-0252-501a367db3fc" testName="SpecificationManagerConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0148445" startTime="2014-12-04T12:50:19.0448088+06:00" endTime="2014-12-04T12:50:19.2359902+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41d8c204-8a7a-495f-a592-856059993057">
+    </UnitTestResult>
+    <UnitTestResult executionId="227a70ab-0496-4a5c-b282-f990bb75713e" testId="73b5c701-5b4c-7609-18f0-998d7642eaf6" testName="MainShaftConstructorTest1" computerName="YELISEY-PROF" duration="00:00:00.0231319" startTime="2014-12-04T12:50:19.2389922+06:00" endTime="2014-12-04T12:50:19.2680191+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="227a70ab-0496-4a5c-b282-f990bb75713e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;400 (System.Double)&gt;. Actual:&lt;400 (System.String)&gt;. </Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.MainShaftConstructorTest1() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="143ce5e1-32dd-44f0-8b5d-b84a46750296" testId="97efb2d1-8907-be84-d929-4b8e1fa3252d" testName="SpecificationData_InformationForSpecificationConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0004738" startTime="2014-12-04T12:50:19.2710219+06:00" endTime="2014-12-04T12:50:19.2760258+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="143ce5e1-32dd-44f0-8b5d-b84a46750296">
+    </UnitTestResult>
+    <UnitTestResult executionId="43244539-0b6f-49af-894c-439ebbc48ce9" testId="f7adb752-fb77-acd0-2377-b23e85c6a916" testName="GetCoordForSlotsTestBySixSlots" computerName="YELISEY-PROF" duration="00:00:00.0034507" startTime="2014-12-04T12:50:19.2780285+06:00" endTime="2014-12-04T12:50:19.2880364+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43244539-0b6f-49af-894c-439ebbc48ce9">
+    </UnitTestResult>
+    <UnitTestResult executionId="d052ae29-a86f-460b-8356-242ac2075f0f" testId="fb5869dc-1fb4-3106-ead5-f9d228aecce1" testName="SpecificationGeneralConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0007483" startTime="2014-12-04T12:50:19.2900402+06:00" endTime="2014-12-04T12:50:19.2960470+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d052ae29-a86f-460b-8356-242ac2075f0f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

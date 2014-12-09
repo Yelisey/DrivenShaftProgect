@@ -1,0 +1,1591 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b2a13dd5-915c-4a25-8f58-5e93a77826ed" name="Yelisey@YELISEY-PROF 2014-12-03 14:39:23" runUser="YELISEY-PROF\Yelisey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="76c1d3dc-dbdc-4067-96fe-7f6ae132dcb8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Yelisey_YELISEY-PROF 2014-12-03 14_39_23">
+      <DeploymentItem filename="C:\Program Files (x86)\ASCON\KOMPAS-3D V14\SDK\C#\Automation\AxInterop.KGAXLib.dll" />
+      <DeploymentItem filename="C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Release\Shaft.exe" />
+      <DeploymentItem filename="C:\Program Files (x86)\ASCON\KOMPAS-3D V14\SDK\C#\Common\KAPITypes.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-03T14:39:23.5686791+06:00" queuing="2014-12-03T14:39:23.6157212+06:00" start="2014-12-03T14:39:23.6687687+06:00" finish="2014-12-03T14:40:43.8471768+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="95" executed="95" passed="2" error="0" failed="44" timeout="0" aborted="0" inconclusive="49" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="YELISEY-PROF" outcome="Warning" timestamp="2014-12-03T14:39:23.6137190+06:00">
+        <Text>Deployment is currently disabled. The deployment item 'Shaft.exe' on test 'ShaftTestProject.MainShaftTest.CutPressPart2Test' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CutPressPart2Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="7860d87f-fb4f-47b4-6fce-5fbd724daa6f">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="1b2d2836-50f6-4c49-8076-b114d3784bad" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutPressPart2Test" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft5Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="1d58a4d7-1144-0e9d-ad68-b382feaf74c4">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="e7fddfa7-1608-4b12-a642-cba030dcc859" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft5Test" />
+    </UnitTest>
+    <UnitTest name="SpecificationData_InformationForSpecificationConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="97efb2d1-8907-be84-d929-4b8e1fa3252d">
+      <Execution id="31d93a85-af03-4614-a177-4b3e6bb54a2c" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationData_InformationForSpecificationTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpecificationData_InformationForSpecificationConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MainShaftConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="beaa813a-0da9-f2fb-9ff8-77ceae3742f2">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="c4cd8f48-2533-42f3-881a-aa201358667e" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainShaftConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ksSetSpcObjectColumnTextTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="d7505a51-a3e5-35db-f19d-4214429d10fc">
+      <Execution id="38172239-9ede-424e-94fc-b1a3727d2670" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.ksSpecificationTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ksSetSpcObjectColumnTextTest" />
+    </UnitTest>
+    <UnitTest name="CreateSpecificationTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="5d4fe109-1ed7-b326-bf9a-b28ae14eb3d7">
+      <Execution id="b3da79d2-b841-49f4-b47d-06d7e13f2e93" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationGeneralTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateSpecificationTest" />
+    </UnitTest>
+    <UnitTest name="DataContainer8HoleConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="e98d5c70-233c-e3ec-3da3-3b4dfc19cf35">
+      <Execution id="cc2b6787-e046-4f00-99f8-24d27fda7973" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainer8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataContainer8HoleConstructorTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="d238385f-3cb4-1fad-e056-ac0c5beda61f">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="646bf5f0-303a-47a9-9525-69ae5ca65e1f" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaftTest" />
+    </UnitTest>
+    <UnitTest name="PressShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="1ab5b838-f576-53aa-7d34-146c0912b7a1">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="e679e485-31c9-4cbe-8f71-200a23bdb9fb" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressShaftTest" />
+    </UnitTest>
+    <UnitTest name="ShaftCutPress3Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="51019717-daa4-637d-95ea-98636ad09f7b">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="bfe361ce-4461-4f5c-b697-c06b3ceedabf" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShaftCutPress3Test" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="bb66ea15-355a-5735-870c-e82208a5e7a4">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="b502966a-5b1c-4b6f-9258-743d40236169" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft2Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="e44d05e6-4ee4-6e9f-b161-ecccf3960dac">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="2b179830-d4bf-4287-a988-d070adfac785" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft2Test" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft5Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="b5a04753-7953-3fb6-e4a2-8a771f1a3973">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="524bb651-60d3-4784-9fa2-f397ea197b07" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft5Test" />
+    </UnitTest>
+    <UnitTest name="toolStripMenuItem1_ClickTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="e593dedb-bd8f-877e-3ec8-3c28408ca8b0">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="38befbc0-ba42-46a0-ae75-7e7609e47589" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="toolStripMenuItem1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="CutPressObjectTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="ed782bb3-0dac-9a6f-7b19-5a12d302a20b">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="43aa6a06-ac9c-4dc1-bc2f-32f2fb53c106" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutPressObjectTest" />
+    </UnitTest>
+    <UnitTest name="textBox9_TextChangedTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="5c9fe26a-a4ec-c87e-f86a-411b34301688">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="b5771d9d-5cbc-4f0e-b6c2-d99c0c813430" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textBox9_TextChangedTest" />
+    </UnitTest>
+    <UnitTest name="CreateShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="0dea2f95-3801-16ab-ff18-154327fcc719">
+      <Execution id="fdd8142c-dfcc-4955-a52a-884953a45542" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateShaftTest" />
+    </UnitTest>
+    <UnitTest name="textBox3_TextChangedTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="0e55eac3-e075-1ca4-dd52-a0de80de79b1">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="11f5ffeb-5aa2-40d5-b289-750ac9525721" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textBox3_TextChangedTest" />
+    </UnitTest>
+    <UnitTest name="HeightOfGearTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="a30fc50e-6244-3f91-aa09-6afebc5cfb10">
+      <Execution id="84a0e155-aeff-4a30-bff8-7accc815025e" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HeightOfGearTest" />
+    </UnitTest>
+    <UnitTest name="textBox10_TextChangedTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="fac88ba4-b17f-7cd2-5dd8-71cedeed6a81">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="d782e2d4-b4b1-44ba-934e-aabaf8cddbb0" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textBox10_TextChangedTest" />
+    </UnitTest>
+    <UnitTest name="WidthSlotsTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="91424932-3a26-c6fe-09a3-88f9b79ca0f9">
+      <Execution id="b5a22da4-9601-4af1-b8fd-cb2f5b7bedce" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WidthSlotsTest" />
+    </UnitTest>
+    <UnitTest name="OusideDiametersTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="2f7b552e-1569-da82-45e8-585ab85b74cf">
+      <Execution id="e30eeb73-4d3d-4068-8805-e0bd243df72e" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OusideDiametersTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft3Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="49521241-c2ad-f7e7-8e55-9aad12511b55">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="2e5b3b23-400b-46e4-b28b-6698db25cfce" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft3Test" />
+    </UnitTest>
+    <UnitTest name="DrivenShaftSamplesTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="35af2a21-155c-5336-d006-0c1d4d86b43b">
+      <Execution id="79d2a44b-d105-44cb-acb9-462c2147a108" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DrivenShaftSamplesTest" />
+    </UnitTest>
+    <UnitTest name="textBox2_TextChangedTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="fd4da668-316c-9e96-c20a-cf2b54a9e309">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="cfaa58f0-4740-4720-83ed-16c83170891d" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textBox2_TextChangedTest" />
+    </UnitTest>
+    <UnitTest name="DataContainerConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="174be65c-0f24-e0a9-9bd3-b0ed5c33e905">
+      <Execution id="b1f00ed5-f977-430e-b13d-4c0b343def38" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataContainerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CutPressPart3Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="6f3c7f91-db4e-e129-4fd3-800551b73a45">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="2f5465e9-fe1c-4d0a-bc94-eaa23e8170a6" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutPressPart3Test" />
+    </UnitTest>
+    <UnitTest name="DrivenShaftSamplesTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="9b3af545-508a-8763-e154-96f42bff9e2d">
+      <Execution id="e359f7ac-03e5-4303-b549-330fa32f1a8c" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainer8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DrivenShaftSamplesTest" />
+    </UnitTest>
+    <UnitTest name="PressShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="530b08c8-8b93-1654-9b53-09c20b06d11b">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="d98d2ec6-ec19-4040-9f7f-6d202b5ef9a7" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressShaftTest" />
+    </UnitTest>
+    <UnitTest name="textBox4_TextChangedTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="cc442b7a-91fe-b2e2-6288-126c0f3fb96a">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="2e42e272-8a2f-4bba-a938-696a9438fb26" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textBox4_TextChangedTest" />
+    </UnitTest>
+    <UnitTest name="PressShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="9948cd9a-0098-d161-23c2-539b36a507ca">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="413d1e75-0340-4e1f-8671-956c6052557a" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressShaftTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft5Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="07db3a39-6167-d5fd-8f92-ba9cbaca0713">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="a4f93fe6-c5ba-4f0d-a4ec-cb7e42399f4e" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft5Test" />
+    </UnitTest>
+    <UnitTest name="CutBaseTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="cf4c71c5-8b5d-c27c-33b4-ae50c5bac898">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="6c54295c-01dc-4f9e-b7da-e26f48c6b654" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutBaseTest" />
+    </UnitTest>
+    <UnitTest name="DrivenShaftConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="dddfa262-bcb0-b9af-22a6-20d57080e2a0">
+      <Execution id="da2ca2e7-302e-4323-b811-61ac80e7d77c" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DrivenShaftConstructorTest" />
+    </UnitTest>
+    <UnitTest name="button1_ClickTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="ef22a61d-29cf-381e-1946-f5dcca8f9e46">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="96688dbd-ce2e-4f39-99fd-d0861a7cb668" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="3f7c3d1c-6307-ce52-b53c-d68d61564c90">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="50a6d7a7-5486-4a11-a9bd-5f086e772666" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaftTest" />
+    </UnitTest>
+    <UnitTest name="ksSpcCountTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="0634429f-d846-de8b-b7d3-b72d7b46bb65">
+      <Execution id="7900cd63-f15d-41c4-97bd-889f68356d0c" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.ksSpecificationTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ksSpcCountTest" />
+    </UnitTest>
+    <UnitTest name="CreateSlotsTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="b1d75003-436a-a755-b815-59d12c15ab43">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="d302414a-5380-4d85-a1e9-8d5efaa1f9eb" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateSlotsTest" />
+    </UnitTest>
+    <UnitTest name="ManagerConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="2c1c911c-1125-b224-6b0c-25a497e852de">
+      <Execution id="a5376ea9-f6ca-4da9-ae90-7788286f83f1" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.ManagerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="SpecificationManagerConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="6efa7041-0a70-a87d-0252-501a367db3fc">
+      <Execution id="528a9753-4dbf-41a5-9582-ab3663dbdbbb" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationManagerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpecificationManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DrivenShaftFor8HoleConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="11a9a53b-20bb-726a-27ba-11775bbb2c44">
+      <Execution id="3be9736c-9515-4c6a-ac70-6e42a6fffd9b" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DrivenShaftFor8HoleConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CutSlotsTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="5e65a197-18d2-58a3-6492-4c37550e6124">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="1a157566-4df2-4044-aabf-14cec13ee713" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutSlotsTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft3Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="a339769a-f19f-5f9f-8506-3a6dc2f06f7a">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="0ac81f7b-3e67-4b29-8d6c-6212435af381" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft3Test" />
+    </UnitTest>
+    <UnitTest name="CutPressPart4Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="9389fba1-e1cf-e0e1-b16e-2fbf5b66006a">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="5a008d4b-f2a8-47b9-b75c-8ed063b76916" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutPressPart4Test" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="9cf2be44-bb36-c2ec-e697-8a039e61eeb0">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="e0df41f5-94e8-4fa0-8a40-2d6195b540a1" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaftTest" />
+    </UnitTest>
+    <UnitTest name="ShaftCutPress4Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="90d2e31d-00fe-bd79-9c65-c0f00bc7899a">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="486ef500-d46a-4f3c-9a71-7db530af86f1" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShaftCutPress4Test" />
+    </UnitTest>
+    <UnitTest name="DataContainer4HoleConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="92758e3d-f21e-6bdc-d667-242c6602bc2d">
+      <Execution id="170b7e41-9d89-435a-9b52-bb705c90b13e" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainer4HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataContainer4HoleConstructorTest" />
+    </UnitTest>
+    <UnitTest name="textBox6_TextChangedTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="faf9075b-2377-2084-0f96-cba20252970e">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="511e99fa-4e23-4d19-b601-36639c89b43f" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textBox6_TextChangedTest" />
+    </UnitTest>
+    <UnitTest name="OpenKompas3DTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="23ce1b3e-da8f-1e99-2955-77d7c6deec89">
+      <Execution id="58f9f4ef-5e00-4ada-952e-d5c4dff9288c" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.ManagerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenKompas3DTest" />
+    </UnitTest>
+    <UnitTest name="ShaftCutPressTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="d376c67c-63af-cf78-db90-577a0883be78">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="b6af5de1-b684-4540-93d3-91693813b036" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShaftCutPressTest" />
+    </UnitTest>
+    <UnitTest name="ksSpcObjectEndTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="b866ecb4-b898-0e07-4ee8-e67982ee1858">
+      <Execution id="01a92c9e-84cc-4714-bb43-2e9ce67bfda2" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.ksSpecificationTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ksSpcObjectEndTest" />
+    </UnitTest>
+    <UnitTest name="CutSlotsTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="8424ed0f-1d6a-c2a5-8239-e7b1cbe96fae">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="f53c9ebc-f2dc-4b69-8638-dba6af635b11" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutSlotsTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft4Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="f8799e58-5b16-e1e6-dcb6-94f4dde30d24">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="66df6005-9776-4769-bfa7-18905a9ecae5" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft4Test" />
+    </UnitTest>
+    <UnitTest name="GetCoordForSlotsTestByFourSlots" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="425f9603-679b-d479-d05b-4cb6b292cc2d">
+      <Execution id="c3d361bc-df37-4ec3-bbc3-47483b0ad76a" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MathLogicTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCoordForSlotsTestByFourSlots" />
+    </UnitTest>
+    <UnitTest name="DrivenShaftSamplesTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="4cdacee6-a63b-a399-303a-33029f2433fe">
+      <Execution id="6c1f75ec-a299-4557-b924-13fff5ee1207" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainer4HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DrivenShaftSamplesTest" />
+    </UnitTest>
+    <UnitTest name="ksSpcObjectCreateTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="2d3e054d-069e-b0df-1d88-3803c0243e2b">
+      <Execution id="63805ad1-d16c-4692-a501-73a4cad09dde" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.ksSpecificationTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ksSpcObjectCreateTest" />
+    </UnitTest>
+    <UnitTest name="ThreadStepsTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="7873fd56-0b18-f000-0bc3-0a70d2268218">
+      <Execution id="0a0f890b-7670-4229-a4e3-6bbc3e9041c2" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThreadStepsTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft4Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="ecc56b62-9477-b8c2-8846-ff148cea0e59">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="ea5d4550-dd85-44c4-a7ba-2357836ad1cc" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft4Test" />
+    </UnitTest>
+    <UnitTest name="ShaftCutPress1Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="6f2abd7f-96dc-0019-97d7-7540620df412">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="ef423aa8-6bfd-4850-a46f-958ebcaca200" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShaftCutPress1Test" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft4Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="0b8d1b65-b1af-4b18-0164-9321314a81db">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="7483b20f-09c9-4044-9728-20144bb9aec2" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftFor8HoleTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft4Test" />
+    </UnitTest>
+    <UnitTest name="CutForSecondShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="c1657180-3b74-bac2-7539-7c113940f140">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="6bd06c5f-1c98-41a5-871e-938885c02d06" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutForSecondShaftTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="36074daa-72de-f39c-e893-7e848f0bd11f">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="71d8f87e-4d87-4289-884b-2ba037bcf816" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="CreateBaseTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="03a0b927-981e-3278-4d0a-78f226686ad2">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="09cf30e2-ed84-4da6-94cd-c7b24dd9025f" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateBaseTest" />
+    </UnitTest>
+    <UnitTest name="безСпецификацииToolStripMenuItem_ClickTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="de3b0c2b-0a58-9aba-c381-204d8f6c5f44">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="dcede741-fc21-4a59-8af3-9e5a5cf35e67" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="безСпецификацииToolStripMenuItem_ClickTest" />
+    </UnitTest>
+    <UnitTest name="textBox1_TextChangedTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="315613a4-2134-86ba-21b6-2c57a00c6e07">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="839c2ae7-ed0a-45aa-ab67-35b0b055a690" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textBox1_TextChangedTest" />
+    </UnitTest>
+    <UnitTest name="CutByPressTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="31c1885f-469b-5f19-888e-a7ca9b1a224c">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="3ebc921e-77a9-42d9-8969-33f78be49577" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutByPressTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft2Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="c12dd1e5-ff50-1def-0e0b-a7b2fdb0c829">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="3a4f6fbc-b7b5-43e0-9706-2541cf1dea3f" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft2Test" />
+    </UnitTest>
+    <UnitTest name="DataContainer_InformationAboutShaftConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="ce9481f9-4cb6-20fb-6bb3-13db180c863b">
+      <Execution id="b9301877-0f35-4a4f-9867-384e956cfafd" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainer_InformationAboutShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataContainer_InformationAboutShaftConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ShaftCutPress2Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="d7176968-2ca8-a303-3f04-c54deeeb5eb0">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="996f55e0-eef8-47cd-83b6-f2452d7b0fb6" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShaftCutPress2Test" />
+    </UnitTest>
+    <UnitTest name="SpecificationDataConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="b84fe6c8-73af-f0a2-4a45-74e2043065a4">
+      <Execution id="88f3d509-bda3-44e5-acea-3fe693098ebb" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationDataTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpecificationDataConstructorTest" />
+    </UnitTest>
+    <UnitTest name="InitSceneTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="5eb1a5ac-152c-babb-c45c-e13677b7a243">
+      <Execution id="ebf44f34-c25e-4a82-a72c-d3a50661ccfa" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.ManagerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitSceneTest" />
+    </UnitTest>
+    <UnitTest name="textBox5_TextChangedTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="f303af86-3843-2e9e-d5dc-24e69185b6dd">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="6e56c8cf-8cb5-41fd-b935-719e565c67c9" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="textBox5_TextChangedTest" />
+    </UnitTest>
+    <UnitTest name="PressBaseTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="c63c9d72-c3d9-ca84-6d26-d59d05cf8f17">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="baf42945-5cc1-4581-bf7e-f38a5dadc862" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressBaseTest" />
+    </UnitTest>
+    <UnitTest name="CutObjectTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="7a354be7-9d79-adbd-ef71-b56827ba4fcf">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="df0c16d5-1c73-497b-95fc-79d72caaa5f7" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutObjectTest" />
+    </UnitTest>
+    <UnitTest name="MainShaftConstructorTest1" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="73b5c701-5b4c-7609-18f0-998d7642eaf6">
+      <Execution id="032bca06-14a3-4550-9bf5-47ac21d6f8f8" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainShaftConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="CreateShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="4bd913d7-5c96-d978-9ae4-b49ff08bdcb0">
+      <Execution id="f560751d-e3cd-4178-9ebb-4361bfe17031" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateShaftTest" />
+    </UnitTest>
+    <UnitTest name="BaseDiametersTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="105d78a9-014e-786b-5eaa-cea054357668">
+      <Execution id="6397f040-ee6f-4df7-b6d3-0935adb6963c" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BaseDiametersTest" />
+    </UnitTest>
+    <UnitTest name="GetCoordForSlotsTestBySixSlots" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="f7adb752-fb77-acd0-2377-b23e85c6a916">
+      <Execution id="8137e352-ad60-46c3-b1d9-f431dc9bdc97" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MathLogicTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCoordForSlotsTestBySixSlots" />
+    </UnitTest>
+    <UnitTest name="ThreadDiametersTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="23f65e02-ea54-64ca-87a5-06c1728141ea">
+      <Execution id="29a52c92-77ab-4f26-b91a-a5bff2a5534f" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThreadDiametersTest" />
+    </UnitTest>
+    <UnitTest name="HeightOfShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="16e8ddda-69fd-3ac0-634e-757b48c37eb2">
+      <Execution id="b106749a-86a4-4b5a-a854-2da2ca2a08bd" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HeightOfShaftTest" />
+    </UnitTest>
+    <UnitTest name="CreateStampTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="6b7c3324-7462-0c42-d7ad-5daf16e65762">
+      <Execution id="9a728600-1647-44a9-88c9-2bd6196e207f" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationGeneralTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateStampTest" />
+    </UnitTest>
+    <UnitTest name="SpecificationGeneralConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="fb5869dc-1fb4-3106-ead5-f9d228aecce1">
+      <Execution id="cfe142f4-00a3-4f1c-b128-a36c8f7dcebb" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.SpecificationGeneralTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpecificationGeneralConstructorTest" />
+    </UnitTest>
+    <UnitTest name="справкаToolStripMenuItem_ClickTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="55a223d0-b6aa-d64e-c5d8-89b29995202a">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="edfaaa0f-61a5-4ed1-9e31-d54fd21b6a1a" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="справкаToolStripMenuItem_ClickTest" />
+    </UnitTest>
+    <UnitTest name="CreateShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="fa6d0a82-7446-45a9-7340-d0ad95ef2be4">
+      <Execution id="af07aeb7-cf3e-4a4c-bc84-f06fdc69925a" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateShaftTest" />
+    </UnitTest>
+    <UnitTest name="CutForBaseShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="6b33fb31-15f2-fa3f-a4e4-5445820a8cd3">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="98d57a07-dbe6-4ff4-a742-cb099204ca0e" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutForBaseShaftTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft2Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="425bd8e1-02ff-7f3d-8fa4-ad243eb542ec">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="b70f99dd-4fed-42a8-8ad5-6b5f1297342a" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft2Test" />
+    </UnitTest>
+    <UnitTest name="CountOfHoleTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="d95b4666-1756-6443-75f9-19f17f608b8d">
+      <Execution id="b86cfda6-368c-4eac-8c55-f1d52e009d76" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountOfHoleTest" />
+    </UnitTest>
+    <UnitTest name="PressSecondShaft3Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="8c180423-0e20-97ac-a227-d8df1b0cd5fb">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="f8d31cba-8bef-4b2c-9d72-907f6d71c2e6" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PressSecondShaft3Test" />
+    </UnitTest>
+    <UnitTest name="InitScene2Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="391e4e5e-77d9-cfbc-c57f-d356237ab966">
+      <Execution id="230dafab-896e-44b9-a295-4139db782e8e" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.ManagerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitScene2Test" />
+    </UnitTest>
+    <UnitTest name="CutPressPart1Test" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="26731184-e989-8320-317f-e9081d0743b9">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="9d08a8b4-6d7c-4b84-8bf5-d9e79ce12867" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutPressPart1Test" />
+    </UnitTest>
+    <UnitTest name="GetMediumAnglesByRadianTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="d58062f1-cac4-4509-c9e2-8b3cce8aebdb">
+      <Execution id="ee9d6f94-b520-47e7-8223-0bb5738931a4" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MathLogicTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetMediumAnglesByRadianTest" />
+    </UnitTest>
+    <UnitTest name="CutSlotsTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="2efdc3a5-9c5e-7956-7715-5ea9529a8381">
+      <DeploymentItems>
+        <DeploymentItem filename="Shaft.exe" />
+      </DeploymentItems>
+      <Execution id="9990f2ac-ac4a-4c7c-865e-29647e752fb9" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DrivenShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CutSlotsTest" />
+    </UnitTest>
+    <UnitTest name="HeightOfSecondShaftTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="3059f429-1c10-09e7-8d0a-631b4edc75fb">
+      <Execution id="a9fd9cff-c74c-405b-9858-b6519692b665" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.DataContainerTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HeightOfSecondShaftTest" />
+    </UnitTest>
+    <UnitTest name="Form1ConstructorTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="75e83158-f30c-6a5d-3900-cb9ff488c6c6">
+      <Execution id="7c1ef8f9-8fb1-46bc-809c-c41420f7fbbc" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.Form1Test, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form1ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="createFaskTest" storage="c:\users\yelisey\desktop\rsapr\новая папка\shaft\shafttestproject\bin\release\shafttestproject.dll" id="15479bb1-2c4d-6808-132e-5cebeb67c25f">
+      <Execution id="65516097-1c29-43b7-bbc1-411f6cfd0ae1" />
+      <TestMethod codeBase="C:/Users/Yelisey/Desktop/RSAPR/Новая папка/Shaft/ShaftTestProject/bin/Release/ShaftTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ShaftTestProject.MainShaftTest, ShaftTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="createFaskTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03a0b927-981e-3278-4d0a-78f226686ad2" executionId="09cf30e2-ed84-4da6-94cd-c7b24dd9025f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0634429f-d846-de8b-b7d3-b72d7b46bb65" executionId="7900cd63-f15d-41c4-97bd-889f68356d0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07db3a39-6167-d5fd-8f92-ba9cbaca0713" executionId="a4f93fe6-c5ba-4f0d-a4ec-cb7e42399f4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b8d1b65-b1af-4b18-0164-9321314a81db" executionId="7483b20f-09c9-4044-9728-20144bb9aec2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0dea2f95-3801-16ab-ff18-154327fcc719" executionId="fdd8142c-dfcc-4955-a52a-884953a45542" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e55eac3-e075-1ca4-dd52-a0de80de79b1" executionId="11f5ffeb-5aa2-40d5-b289-750ac9525721" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="105d78a9-014e-786b-5eaa-cea054357668" executionId="6397f040-ee6f-4df7-b6d3-0935adb6963c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11a9a53b-20bb-726a-27ba-11775bbb2c44" executionId="3be9736c-9515-4c6a-ac70-6e42a6fffd9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15479bb1-2c4d-6808-132e-5cebeb67c25f" executionId="65516097-1c29-43b7-bbc1-411f6cfd0ae1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16e8ddda-69fd-3ac0-634e-757b48c37eb2" executionId="b106749a-86a4-4b5a-a854-2da2ca2a08bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="174be65c-0f24-e0a9-9bd3-b0ed5c33e905" executionId="b1f00ed5-f977-430e-b13d-4c0b343def38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ab5b838-f576-53aa-7d34-146c0912b7a1" executionId="e679e485-31c9-4cbe-8f71-200a23bdb9fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d58a4d7-1144-0e9d-ad68-b382feaf74c4" executionId="e7fddfa7-1608-4b12-a642-cba030dcc859" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23ce1b3e-da8f-1e99-2955-77d7c6deec89" executionId="58f9f4ef-5e00-4ada-952e-d5c4dff9288c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23f65e02-ea54-64ca-87a5-06c1728141ea" executionId="29a52c92-77ab-4f26-b91a-a5bff2a5534f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26731184-e989-8320-317f-e9081d0743b9" executionId="9d08a8b4-6d7c-4b84-8bf5-d9e79ce12867" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c1c911c-1125-b224-6b0c-25a497e852de" executionId="a5376ea9-f6ca-4da9-ae90-7788286f83f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d3e054d-069e-b0df-1d88-3803c0243e2b" executionId="63805ad1-d16c-4692-a501-73a4cad09dde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2efdc3a5-9c5e-7956-7715-5ea9529a8381" executionId="9990f2ac-ac4a-4c7c-865e-29647e752fb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f7b552e-1569-da82-45e8-585ab85b74cf" executionId="e30eeb73-4d3d-4068-8805-e0bd243df72e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3059f429-1c10-09e7-8d0a-631b4edc75fb" executionId="a9fd9cff-c74c-405b-9858-b6519692b665" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="315613a4-2134-86ba-21b6-2c57a00c6e07" executionId="839c2ae7-ed0a-45aa-ab67-35b0b055a690" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31c1885f-469b-5f19-888e-a7ca9b1a224c" executionId="3ebc921e-77a9-42d9-8969-33f78be49577" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35af2a21-155c-5336-d006-0c1d4d86b43b" executionId="79d2a44b-d105-44cb-acb9-462c2147a108" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36074daa-72de-f39c-e893-7e848f0bd11f" executionId="71d8f87e-4d87-4289-884b-2ba037bcf816" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="391e4e5e-77d9-cfbc-c57f-d356237ab966" executionId="230dafab-896e-44b9-a295-4139db782e8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f7c3d1c-6307-ce52-b53c-d68d61564c90" executionId="50a6d7a7-5486-4a11-a9bd-5f086e772666" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="425bd8e1-02ff-7f3d-8fa4-ad243eb542ec" executionId="b70f99dd-4fed-42a8-8ad5-6b5f1297342a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="425f9603-679b-d479-d05b-4cb6b292cc2d" executionId="c3d361bc-df37-4ec3-bbc3-47483b0ad76a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49521241-c2ad-f7e7-8e55-9aad12511b55" executionId="2e5b3b23-400b-46e4-b28b-6698db25cfce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bd913d7-5c96-d978-9ae4-b49ff08bdcb0" executionId="f560751d-e3cd-4178-9ebb-4361bfe17031" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cdacee6-a63b-a399-303a-33029f2433fe" executionId="6c1f75ec-a299-4557-b924-13fff5ee1207" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51019717-daa4-637d-95ea-98636ad09f7b" executionId="bfe361ce-4461-4f5c-b697-c06b3ceedabf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="530b08c8-8b93-1654-9b53-09c20b06d11b" executionId="d98d2ec6-ec19-4040-9f7f-6d202b5ef9a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55a223d0-b6aa-d64e-c5d8-89b29995202a" executionId="edfaaa0f-61a5-4ed1-9e31-d54fd21b6a1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c9fe26a-a4ec-c87e-f86a-411b34301688" executionId="b5771d9d-5cbc-4f0e-b6c2-d99c0c813430" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d4fe109-1ed7-b326-bf9a-b28ae14eb3d7" executionId="b3da79d2-b841-49f4-b47d-06d7e13f2e93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e65a197-18d2-58a3-6492-4c37550e6124" executionId="1a157566-4df2-4044-aabf-14cec13ee713" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5eb1a5ac-152c-babb-c45c-e13677b7a243" executionId="ebf44f34-c25e-4a82-a72c-d3a50661ccfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b33fb31-15f2-fa3f-a4e4-5445820a8cd3" executionId="98d57a07-dbe6-4ff4-a742-cb099204ca0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b7c3324-7462-0c42-d7ad-5daf16e65762" executionId="9a728600-1647-44a9-88c9-2bd6196e207f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6efa7041-0a70-a87d-0252-501a367db3fc" executionId="528a9753-4dbf-41a5-9582-ab3663dbdbbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f2abd7f-96dc-0019-97d7-7540620df412" executionId="ef423aa8-6bfd-4850-a46f-958ebcaca200" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f3c7f91-db4e-e129-4fd3-800551b73a45" executionId="2f5465e9-fe1c-4d0a-bc94-eaa23e8170a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73b5c701-5b4c-7609-18f0-998d7642eaf6" executionId="032bca06-14a3-4550-9bf5-47ac21d6f8f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75e83158-f30c-6a5d-3900-cb9ff488c6c6" executionId="7c1ef8f9-8fb1-46bc-809c-c41420f7fbbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7860d87f-fb4f-47b4-6fce-5fbd724daa6f" executionId="1b2d2836-50f6-4c49-8076-b114d3784bad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7873fd56-0b18-f000-0bc3-0a70d2268218" executionId="0a0f890b-7670-4229-a4e3-6bbc3e9041c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a354be7-9d79-adbd-ef71-b56827ba4fcf" executionId="df0c16d5-1c73-497b-95fc-79d72caaa5f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8424ed0f-1d6a-c2a5-8239-e7b1cbe96fae" executionId="f53c9ebc-f2dc-4b69-8638-dba6af635b11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c180423-0e20-97ac-a227-d8df1b0cd5fb" executionId="f8d31cba-8bef-4b2c-9d72-907f6d71c2e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90d2e31d-00fe-bd79-9c65-c0f00bc7899a" executionId="486ef500-d46a-4f3c-9a71-7db530af86f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91424932-3a26-c6fe-09a3-88f9b79ca0f9" executionId="b5a22da4-9601-4af1-b8fd-cb2f5b7bedce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92758e3d-f21e-6bdc-d667-242c6602bc2d" executionId="170b7e41-9d89-435a-9b52-bb705c90b13e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9389fba1-e1cf-e0e1-b16e-2fbf5b66006a" executionId="5a008d4b-f2a8-47b9-b75c-8ed063b76916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97efb2d1-8907-be84-d929-4b8e1fa3252d" executionId="31d93a85-af03-4614-a177-4b3e6bb54a2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9948cd9a-0098-d161-23c2-539b36a507ca" executionId="413d1e75-0340-4e1f-8671-956c6052557a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b3af545-508a-8763-e154-96f42bff9e2d" executionId="e359f7ac-03e5-4303-b549-330fa32f1a8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cf2be44-bb36-c2ec-e697-8a039e61eeb0" executionId="e0df41f5-94e8-4fa0-8a40-2d6195b540a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a30fc50e-6244-3f91-aa09-6afebc5cfb10" executionId="84a0e155-aeff-4a30-bff8-7accc815025e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a339769a-f19f-5f9f-8506-3a6dc2f06f7a" executionId="0ac81f7b-3e67-4b29-8d6c-6212435af381" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1d75003-436a-a755-b815-59d12c15ab43" executionId="d302414a-5380-4d85-a1e9-8d5efaa1f9eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5a04753-7953-3fb6-e4a2-8a771f1a3973" executionId="524bb651-60d3-4784-9fa2-f397ea197b07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b84fe6c8-73af-f0a2-4a45-74e2043065a4" executionId="88f3d509-bda3-44e5-acea-3fe693098ebb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b866ecb4-b898-0e07-4ee8-e67982ee1858" executionId="01a92c9e-84cc-4714-bb43-2e9ce67bfda2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb66ea15-355a-5735-870c-e82208a5e7a4" executionId="b502966a-5b1c-4b6f-9258-743d40236169" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="beaa813a-0da9-f2fb-9ff8-77ceae3742f2" executionId="c4cd8f48-2533-42f3-881a-aa201358667e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c12dd1e5-ff50-1def-0e0b-a7b2fdb0c829" executionId="3a4f6fbc-b7b5-43e0-9706-2541cf1dea3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1657180-3b74-bac2-7539-7c113940f140" executionId="6bd06c5f-1c98-41a5-871e-938885c02d06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c63c9d72-c3d9-ca84-6d26-d59d05cf8f17" executionId="baf42945-5cc1-4581-bf7e-f38a5dadc862" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc442b7a-91fe-b2e2-6288-126c0f3fb96a" executionId="2e42e272-8a2f-4bba-a938-696a9438fb26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce9481f9-4cb6-20fb-6bb3-13db180c863b" executionId="b9301877-0f35-4a4f-9867-384e956cfafd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf4c71c5-8b5d-c27c-33b4-ae50c5bac898" executionId="6c54295c-01dc-4f9e-b7da-e26f48c6b654" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d238385f-3cb4-1fad-e056-ac0c5beda61f" executionId="646bf5f0-303a-47a9-9525-69ae5ca65e1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d376c67c-63af-cf78-db90-577a0883be78" executionId="b6af5de1-b684-4540-93d3-91693813b036" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d58062f1-cac4-4509-c9e2-8b3cce8aebdb" executionId="ee9d6f94-b520-47e7-8223-0bb5738931a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7176968-2ca8-a303-3f04-c54deeeb5eb0" executionId="996f55e0-eef8-47cd-83b6-f2452d7b0fb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7505a51-a3e5-35db-f19d-4214429d10fc" executionId="38172239-9ede-424e-94fc-b1a3727d2670" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d95b4666-1756-6443-75f9-19f17f608b8d" executionId="b86cfda6-368c-4eac-8c55-f1d52e009d76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dddfa262-bcb0-b9af-22a6-20d57080e2a0" executionId="da2ca2e7-302e-4323-b811-61ac80e7d77c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de3b0c2b-0a58-9aba-c381-204d8f6c5f44" executionId="dcede741-fc21-4a59-8af3-9e5a5cf35e67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e44d05e6-4ee4-6e9f-b161-ecccf3960dac" executionId="2b179830-d4bf-4287-a988-d070adfac785" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e593dedb-bd8f-877e-3ec8-3c28408ca8b0" executionId="38befbc0-ba42-46a0-ae75-7e7609e47589" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e98d5c70-233c-e3ec-3da3-3b4dfc19cf35" executionId="cc2b6787-e046-4f00-99f8-24d27fda7973" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecc56b62-9477-b8c2-8846-ff148cea0e59" executionId="ea5d4550-dd85-44c4-a7ba-2357836ad1cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed782bb3-0dac-9a6f-7b19-5a12d302a20b" executionId="43aa6a06-ac9c-4dc1-bc2f-32f2fb53c106" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef22a61d-29cf-381e-1946-f5dcca8f9e46" executionId="96688dbd-ce2e-4f39-99fd-d0861a7cb668" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f303af86-3843-2e9e-d5dc-24e69185b6dd" executionId="6e56c8cf-8cb5-41fd-b935-719e565c67c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7adb752-fb77-acd0-2377-b23e85c6a916" executionId="8137e352-ad60-46c3-b1d9-f431dc9bdc97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8799e58-5b16-e1e6-dcb6-94f4dde30d24" executionId="66df6005-9776-4769-bfa7-18905a9ecae5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa6d0a82-7446-45a9-7340-d0ad95ef2be4" executionId="af07aeb7-cf3e-4a4c-bc84-f06fdc69925a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fac88ba4-b17f-7cd2-5dd8-71cedeed6a81" executionId="d782e2d4-b4b1-44ba-934e-aabaf8cddbb0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="faf9075b-2377-2084-0f96-cba20252970e" executionId="511e99fa-4e23-4d19-b601-36639c89b43f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb5869dc-1fb4-3106-ead5-f9d228aecce1" executionId="cfe142f4-00a3-4f1c-b128-a36c8f7dcebb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd4da668-316c-9e96-c20a-cf2b54a9e309" executionId="cfaa58f0-4740-4720-83ed-16c83170891d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="09cf30e2-ed84-4da6-94cd-c7b24dd9025f" testId="03a0b927-981e-3278-4d0a-78f226686ad2" testName="CreateBaseTest" computerName="YELISEY-PROF" duration="00:00:00.0575873" startTime="2014-12-03T14:39:23.6727728+06:00" endTime="2014-12-03T14:39:23.9650359+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09cf30e2-ed84-4da6-94cd-c7b24dd9025f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CreateBaseTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CreateBase()
+   в ShaftTestProject.MainShaftTest.CreateBaseTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7900cd63-f15d-41c4-97bd-889f68356d0c" testId="0634429f-d846-de8b-b7d3-b72d7b46bb65" testName="ksSpcCountTest" computerName="YELISEY-PROF" duration="00:00:00.0040093" startTime="2014-12-03T14:39:23.9660395+06:00" endTime="2014-12-03T14:39:23.9770471+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7900cd63-f15d-41c4-97bd-889f68356d0c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.ksSpecificationTest.ksSpcCountTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>    в ShaftTestProject.ksSpecificationTest.ksSpcCountTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\ksSpecificationTest.cs:строка 103
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a4f93fe6-c5ba-4f0d-a4ec-cb7e42399f4e" testId="07db3a39-6167-d5fd-8f92-ba9cbaca0713" testName="PressSecondShaft5Test" computerName="YELISEY-PROF" duration="00:00:00.0120427" startTime="2014-12-03T14:39:23.9790501+06:00" endTime="2014-12-03T14:39:23.9970648+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4f93fe6-c5ba-4f0d-a4ec-cb7e42399f4e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.PressSecondShaft5Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 348
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7483b20f-09c9-4044-9728-20144bb9aec2" testId="0b8d1b65-b1af-4b18-0164-9321314a81db" testName="PressSecondShaft4Test" computerName="YELISEY-PROF" duration="00:00:00.0040417" startTime="2014-12-03T14:39:23.9990690+06:00" endTime="2014-12-03T14:39:24.0090761+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7483b20f-09c9-4044-9728-20144bb9aec2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaft4Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaftFor8Hole_Accessor.PressSecondShaft4(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaft4Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 168
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fdd8142c-dfcc-4955-a52a-884953a45542" testId="0dea2f95-3801-16ab-ff18-154327fcc719" testName="CreateShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0062079" startTime="2014-12-03T14:39:24.0110790+06:00" endTime="2014-12-03T14:39:24.0240904+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdd8142c-dfcc-4955-a52a-884953a45542">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftFor8HoleTest.CreateShaftTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>    в Shaft.MainShaft.CreateBase() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\Shaft\Shaft.cs:строка 116
+   в Shaft.DrivenShaftFor8Hole.CreateShaft() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\Shaft\DrivenShaftFor8Hole.cs:строка 112
+   в ShaftTestProject.DrivenShaftFor8HoleTest.CreateShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 93
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11f5ffeb-5aa2-40d5-b289-750ac9525721" testId="0e55eac3-e075-1ca4-dd52-a0de80de79b1" testName="textBox3_TextChangedTest" computerName="YELISEY-PROF" duration="00:00:12.8238736" startTime="2014-12-03T14:39:24.0280948+06:00" endTime="2014-12-03T14:39:36.8576813+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11f5ffeb-5aa2-40d5-b289-750ac9525721">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.textBox3_TextChangedTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 169
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6397f040-ee6f-4df7-b6d3-0935adb6963c" testId="105d78a9-014e-786b-5eaa-cea054357668" testName="BaseDiametersTest" computerName="YELISEY-PROF" duration="00:00:00.0079956" startTime="2014-12-03T14:39:36.8606832+06:00" endTime="2014-12-03T14:39:36.8746939+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6397f040-ee6f-4df7-b6d3-0935adb6963c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.BaseDiametersTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3be9736c-9515-4c6a-ac70-6e42a6fffd9b" testId="11a9a53b-20bb-726a-27ba-11775bbb2c44" testName="DrivenShaftFor8HoleConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0011895" startTime="2014-12-03T14:39:36.8766981+06:00" endTime="2014-12-03T14:39:36.8847049+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3be9736c-9515-4c6a-ac70-6e42a6fffd9b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.DrivenShaftFor8HoleTest.DrivenShaftFor8HoleConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65516097-1c29-43b7-bbc1-411f6cfd0ae1" testId="15479bb1-2c4d-6808-132e-5cebeb67c25f" testName="createFaskTest" computerName="YELISEY-PROF" duration="00:00:00.0089411" startTime="2014-12-03T14:39:36.8867067+06:00" endTime="2014-12-03T14:39:36.9017191+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65516097-1c29-43b7-bbc1-411f6cfd0ae1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.createFaskTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>    в Shaft.MainShaft.createFask(Boolean tangent, Double radius, String Plane) в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\Shaft\Shaft.cs:строка 408
+   в ShaftTestProject.MainShaftTest.createFaskTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 435
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b106749a-86a4-4b5a-a854-2da2ca2a08bd" testId="16e8ddda-69fd-3ac0-634e-757b48c37eb2" testName="HeightOfShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0015644" startTime="2014-12-03T14:39:36.9027212+06:00" endTime="2014-12-03T14:39:36.9097267+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b106749a-86a4-4b5a-a854-2da2ca2a08bd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.HeightOfShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 147
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1f00ed5-f977-430e-b13d-4c0b343def38" testId="174be65c-0f24-e0a9-9bd3-b0ed5c33e905" testName="DataContainerConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0010401" startTime="2014-12-03T14:39:36.9147328+06:00" endTime="2014-12-03T14:39:36.9237398+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1f00ed5-f977-430e-b13d-4c0b343def38">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.DataContainerConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e679e485-31c9-4cbe-8f71-200a23bdb9fb" testId="1ab5b838-f576-53aa-7d34-146c0912b7a1" testName="PressShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0016376" startTime="2014-12-03T14:39:36.9257424+06:00" endTime="2014-12-03T14:39:36.9337488+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e679e485-31c9-4cbe-8f71-200a23bdb9fb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.PressShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 362
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7fddfa7-1608-4b12-a642-cba030dcc859" testId="1d58a4d7-1144-0e9d-ad68-b382feaf74c4" testName="PressSecondShaft5Test" computerName="YELISEY-PROF" duration="00:00:00.0033722" startTime="2014-12-03T14:39:36.9357514+06:00" endTime="2014-12-03T14:39:36.9447588+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7fddfa7-1608-4b12-a642-cba030dcc859">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaft5Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaftFor8Hole_Accessor.PressSecondShaft5(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaft5Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 183
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="58f9f4ef-5e00-4ada-952e-d5c4dff9288c" testId="23ce1b3e-da8f-1e99-2955-77d7c6deec89" testName="OpenKompas3DTest" computerName="YELISEY-PROF" duration="00:00:08.2670211" startTime="2014-12-03T14:39:36.9477622+06:00" endTime="2014-12-03T14:39:45.2222347+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58f9f4ef-5e00-4ada-952e-d5c4dff9288c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.ManagerTest.OpenKompas3DTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\ManagerTest.cs:строка 112
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29a52c92-77ab-4f26-b91a-a5bff2a5534f" testId="23f65e02-ea54-64ca-87a5-06c1728141ea" testName="ThreadDiametersTest" computerName="YELISEY-PROF" duration="00:00:00.0028371" startTime="2014-12-03T14:39:45.2272392+06:00" endTime="2014-12-03T14:39:45.2432545+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29a52c92-77ab-4f26-b91a-a5bff2a5534f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.ThreadDiametersTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 171
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d08a8b4-6d7c-4b84-8bf5-d9e79ce12867" testId="26731184-e989-8320-317f-e9081d0743b9" testName="CutPressPart1Test" computerName="YELISEY-PROF" duration="00:00:00.0137655" startTime="2014-12-03T14:39:45.2472577+06:00" endTime="2014-12-03T14:39:45.2742813+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d08a8b4-6d7c-4b84-8bf5-d9e79ce12867">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutPressPart1Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutPressPart1(ksEntity entitySketch)
+   в ShaftTestProject.MainShaftTest.CutPressPart1Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 212
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5376ea9-f6ca-4da9-ae90-7788286f83f1" testId="2c1c911c-1125-b224-6b0c-25a497e852de" testName="ManagerConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0018670" startTime="2014-12-03T14:39:45.2772848+06:00" endTime="2014-12-03T14:39:45.2913002+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5376ea9-f6ca-4da9-ae90-7788286f83f1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.ManagerTest.ManagerConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\ManagerTest.cs:строка 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="63805ad1-d16c-4692-a501-73a4cad09dde" testId="2d3e054d-069e-b0df-1d88-3803c0243e2b" testName="ksSpcObjectCreateTest" computerName="YELISEY-PROF" duration="00:00:00.0066529" startTime="2014-12-03T14:39:45.2953007+06:00" endTime="2014-12-03T14:39:45.3123180+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63805ad1-d16c-4692-a501-73a4cad09dde">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.ksSpecificationTest.ksSpcObjectCreateTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>    в ShaftTestProject.ksSpecificationTest.ksSpcObjectCreateTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\ksSpecificationTest.cs:строка 123
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9990f2ac-ac4a-4c7c-865e-29647e752fb9" testId="2efdc3a5-9c5e-7956-7715-5ea9529a8381" testName="CutSlotsTest" computerName="YELISEY-PROF" duration="00:00:00.0068569" startTime="2014-12-03T14:39:45.3163201+06:00" endTime="2014-12-03T14:39:45.3333366+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9990f2ac-ac4a-4c7c-865e-29647e752fb9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftTest.CutSlotsTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaft_Accessor.CutHoles(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftTest.CutSlotsTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e30eeb73-4d3d-4068-8805-e0bd243df72e" testId="2f7b552e-1569-da82-45e8-585ab85b74cf" testName="OusideDiametersTest" computerName="YELISEY-PROF" duration="00:00:00.0027609" startTime="2014-12-03T14:39:45.3373383+06:00" endTime="2014-12-03T14:39:45.3513498+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e30eeb73-4d3d-4068-8805-e0bd243df72e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.OusideDiametersTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 159
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a9fd9cff-c74c-405b-9858-b6519692b665" testId="3059f429-1c10-09e7-8d0a-631b4edc75fb" testName="HeightOfSecondShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0026585" startTime="2014-12-03T14:39:45.3543544+06:00" endTime="2014-12-03T14:39:45.3673650+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9fd9cff-c74c-405b-9858-b6519692b665">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.HeightOfSecondShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 135
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="839c2ae7-ed0a-45aa-ab67-35b0b055a690" testId="315613a4-2134-86ba-21b6-2c57a00c6e07" testName="textBox1_TextChangedTest" computerName="YELISEY-PROF" duration="00:00:14.0078490" startTime="2014-12-03T14:39:45.3703693+06:00" endTime="2014-12-03T14:39:59.3990371+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="839c2ae7-ed0a-45aa-ab67-35b0b055a690">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.textBox1_TextChangedTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 141
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3ebc921e-77a9-42d9-8969-33f78be49577" testId="31c1885f-469b-5f19-888e-a7ca9b1a224c" testName="CutByPressTest" computerName="YELISEY-PROF" duration="00:00:00.0146701" startTime="2014-12-03T14:39:59.4020398+06:00" endTime="2014-12-03T14:39:59.4280637+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ebc921e-77a9-42d9-8969-33f78be49577">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutByPressTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutByPress()
+   в ShaftTestProject.MainShaftTest.CutByPressTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 148
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79d2a44b-d105-44cb-acb9-462c2147a108" testId="35af2a21-155c-5336-d006-0c1d4d86b43b" testName="DrivenShaftSamplesTest" computerName="YELISEY-PROF" duration="00:00:00.0038457" startTime="2014-12-03T14:39:59.4691000+06:00" endTime="2014-12-03T14:39:59.5271524+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79d2a44b-d105-44cb-acb9-462c2147a108">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.DrivenShaftSamplesTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="71d8f87e-4d87-4289-884b-2ba037bcf816" testId="36074daa-72de-f39c-e893-7e848f0bd11f" testName="DisposeTest" computerName="YELISEY-PROF" duration="00:00:00.0545003" startTime="2014-12-03T14:39:59.5611835+06:00" endTime="2014-12-03T14:39:59.6432569+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71d8f87e-4d87-4289-884b-2ba037bcf816">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.DisposeTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="230dafab-896e-44b9-a295-4139db782e8e" testId="391e4e5e-77d9-cfbc-c57f-d356237ab966" testName="InitScene2Test" computerName="YELISEY-PROF" duration="00:00:00.5305021" startTime="2014-12-03T14:39:59.6492631+06:00" endTime="2014-12-03T14:40:00.2007646+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="230dafab-896e-44b9-a295-4139db782e8e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.ManagerTest.InitScene2Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\ManagerTest.cs:строка 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="50a6d7a7-5486-4a11-a9bd-5f086e772666" testId="3f7c3d1c-6307-ce52-b53c-d68d61564c90" testName="PressSecondShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0078162" startTime="2014-12-03T14:40:00.2047659+06:00" endTime="2014-12-03T14:40:00.2247832+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50a6d7a7-5486-4a11-a9bd-5f086e772666">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaftTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaftFor8Hole_Accessor.PressSecondShaft(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 123
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b70f99dd-4fed-42a8-8ad5-6b5f1297342a" testId="425bd8e1-02ff-7f3d-8fa4-ad243eb542ec" testName="PressSecondShaft2Test" computerName="YELISEY-PROF" duration="00:00:00.0026993" startTime="2014-12-03T14:40:00.2317895+06:00" endTime="2014-12-03T14:40:00.2458018+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b70f99dd-4fed-42a8-8ad5-6b5f1297342a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.PressSecondShaft2Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 306
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3d361bc-df37-4ec3-bbc3-47483b0ad76a" testId="425f9603-679b-d479-d05b-4cb6b292cc2d" testName="GetCoordForSlotsTestByFourSlots" computerName="YELISEY-PROF" duration="00:00:00.0270455" startTime="2014-12-03T14:40:00.2488053+06:00" endTime="2014-12-03T14:40:00.2858375+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3d361bc-df37-4ec3-bbc3-47483b0ad76a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;14&gt;. Actual:&lt;16&gt;. </Message>
+          <StackTrace>   в ShaftTestProject.MathLogicTest.GetCoordForSlotsTestByFourSlots() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MathLogicTest.cs:строка 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e5b3b23-400b-46e4-b28b-6698db25cfce" testId="49521241-c2ad-f7e7-8e55-9aad12511b55" testName="PressSecondShaft3Test" computerName="YELISEY-PROF" duration="00:00:00.0060212" startTime="2014-12-03T14:40:00.2918445+06:00" endTime="2014-12-03T14:40:00.3088614+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e5b3b23-400b-46e4-b28b-6698db25cfce">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaft3Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaftFor8Hole_Accessor.PressSecondShaft3(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaft3Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 153
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f560751d-e3cd-4178-9ebb-4361bfe17031" testId="4bd913d7-5c96-d978-9ae4-b49ff08bdcb0" testName="CreateShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0020295" startTime="2014-12-03T14:40:00.3138636+06:00" endTime="2014-12-03T14:40:00.3418920+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f560751d-e3cd-4178-9ebb-4361bfe17031">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.CreateShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6c1f75ec-a299-4557-b924-13fff5ee1207" testId="4cdacee6-a63b-a399-303a-33029f2433fe" testName="DrivenShaftSamplesTest" computerName="YELISEY-PROF" duration="00:00:00.0022073" startTime="2014-12-03T14:40:00.3468938+06:00" endTime="2014-12-03T14:40:00.3609084+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c1f75ec-a299-4557-b924-13fff5ee1207">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainer4HoleTest.DrivenShaftSamplesTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainer4HoleTest.cs:строка 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bfe361ce-4461-4f5c-b697-c06b3ceedabf" testId="51019717-daa4-637d-95ea-98636ad09f7b" testName="ShaftCutPress3Test" computerName="YELISEY-PROF" duration="00:00:00.0141123" startTime="2014-12-03T14:40:00.3649097+06:00" endTime="2014-12-03T14:40:00.3909328+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfe361ce-4461-4f5c-b697-c06b3ceedabf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.ShaftCutPress3Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.ShaftCutPress3()
+   в ShaftTestProject.MainShaftTest.ShaftCutPress3Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 409
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d98d2ec6-ec19-4040-9f7f-6d202b5ef9a7" testId="530b08c8-8b93-1654-9b53-09c20b06d11b" testName="PressShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0060997" startTime="2014-12-03T14:40:00.3939363+06:00" endTime="2014-12-03T14:40:00.4149549+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d98d2ec6-ec19-4040-9f7f-6d202b5ef9a7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftFor8HoleTest.PressShaftTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaftFor8Hole_Accessor.PressShaft(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftFor8HoleTest.PressShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 198
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="edfaaa0f-61a5-4ed1-9e31-d54fd21b6a1a" testId="55a223d0-b6aa-d64e-c5d8-89b29995202a" testName="справкаToolStripMenuItem_ClickTest" computerName="YELISEY-PROF" duration="00:00:00.1935578" startTime="2014-12-03T14:40:00.4189593+06:00" endTime="2014-12-03T14:40:00.6231422+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edfaaa0f-61a5-4ed1-9e31-d54fd21b6a1a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.справкаToolStripMenuItem_ClickTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 267
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5771d9d-5cbc-4f0e-b6c2-d99c0c813430" testId="5c9fe26a-a4ec-c87e-f86a-411b34301688" testName="textBox9_TextChangedTest" computerName="YELISEY-PROF" duration="00:00:00.6797434" startTime="2014-12-03T14:40:00.6271465+06:00" endTime="2014-12-03T14:40:01.3337847+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5771d9d-5cbc-4f0e-b6c2-d99c0c813430">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.textBox9_TextChangedTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 225
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3da79d2-b841-49f4-b47d-06d7e13f2e93" testId="5d4fe109-1ed7-b326-bf9a-b28ae14eb3d7" testName="CreateSpecificationTest" computerName="YELISEY-PROF" duration="00:00:00.0118472" startTime="2014-12-03T14:40:01.3377883+06:00" endTime="2014-12-03T14:40:01.3608083+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3da79d2-b841-49f4-b47d-06d7e13f2e93">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.SpecificationGeneralTest.CreateSpecificationTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>    в Shaft.SpecificationGeneral.CreateSpecification() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\Specification\SpecificationGeneral.cs:строка 56
+   в ShaftTestProject.SpecificationGeneralTest.CreateSpecificationTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\SpecificationGeneralTest.cs:строка 47
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a157566-4df2-4044-aabf-14cec13ee713" testId="5e65a197-18d2-58a3-6492-4c37550e6124" testName="CutSlotsTest" computerName="YELISEY-PROF" duration="00:00:00.0056127" startTime="2014-12-03T14:40:01.3668141+06:00" endTime="2014-12-03T14:40:01.3838295+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a157566-4df2-4044-aabf-14cec13ee713">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftFor8HoleTest.CutSlotsTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaftFor8Hole_Accessor.CutHoles(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftFor8HoleTest.CutSlotsTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebf44f34-c25e-4a82-a72c-d3a50661ccfa" testId="5eb1a5ac-152c-babb-c45c-e13677b7a243" testName="InitSceneTest" computerName="YELISEY-PROF" duration="00:00:00.5760471" startTime="2014-12-03T14:40:01.3888348+06:00" endTime="2014-12-03T14:40:01.9853735+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebf44f34-c25e-4a82-a72c-d3a50661ccfa">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.ManagerTest.InitSceneTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\ManagerTest.cs:строка 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98d57a07-dbe6-4ff4-a742-cb099204ca0e" testId="6b33fb31-15f2-fa3f-a4e4-5445820a8cd3" testName="CutForBaseShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0104455" startTime="2014-12-03T14:40:01.9893764+06:00" endTime="2014-12-03T14:40:02.0103957+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98d57a07-dbe6-4ff4-a742-cb099204ca0e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutForBaseShaftTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutForBaseShaft()
+   в ShaftTestProject.MainShaftTest.CutForBaseShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 160
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a728600-1647-44a9-88c9-2bd6196e207f" testId="6b7c3324-7462-0c42-d7ad-5daf16e65762" testName="CreateStampTest" computerName="YELISEY-PROF" duration="00:00:00.5387626" startTime="2014-12-03T14:40:02.0154002+06:00" endTime="2014-12-03T14:40:02.5658974+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a728600-1647-44a9-88c9-2bd6196e207f">
+    </UnitTestResult>
+    <UnitTestResult executionId="528a9753-4dbf-41a5-9582-ab3663dbdbbb" testId="6efa7041-0a70-a87d-0252-501a367db3fc" testName="SpecificationManagerConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0020811" startTime="2014-12-03T14:40:02.5749198+06:00" endTime="2014-12-03T14:40:02.5899187+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="528a9753-4dbf-41a5-9582-ab3663dbdbbb">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef423aa8-6bfd-4850-a46f-958ebcaca200" testId="6f2abd7f-96dc-0019-97d7-7540620df412" testName="ShaftCutPress1Test" computerName="YELISEY-PROF" duration="00:00:00.0140680" startTime="2014-12-03T14:40:02.5959241+06:00" endTime="2014-12-03T14:40:02.6219476+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef423aa8-6bfd-4850-a46f-958ebcaca200">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.ShaftCutPress1Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.ShaftCutPress1()
+   в ShaftTestProject.MainShaftTest.ShaftCutPress1Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 385
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f5465e9-fe1c-4d0a-bc94-eaa23e8170a6" testId="6f3c7f91-db4e-e129-4fd3-800551b73a45" testName="CutPressPart3Test" computerName="YELISEY-PROF" duration="00:00:00.0114815" startTime="2014-12-03T14:40:02.6279530+06:00" endTime="2014-12-03T14:40:02.6529756+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f5465e9-fe1c-4d0a-bc94-eaa23e8170a6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutPressPart3Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutPressPart3(ksEntity entitySketch)
+   в ShaftTestProject.MainShaftTest.CutPressPart3Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 238
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="032bca06-14a3-4550-9bf5-47ac21d6f8f8" testId="73b5c701-5b4c-7609-18f0-998d7642eaf6" testName="MainShaftConstructorTest1" computerName="YELISEY-PROF" duration="00:00:00.0020453" startTime="2014-12-03T14:40:02.6569800+06:00" endTime="2014-12-03T14:40:02.6739939+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="032bca06-14a3-4550-9bf5-47ac21d6f8f8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.MainShaftConstructorTest1() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 90
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7c1ef8f9-8fb1-46bc-809c-c41420f7fbbc" testId="75e83158-f30c-6a5d-3900-cb9ff488c6c6" testName="Form1ConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0330182" startTime="2014-12-03T14:40:02.6810017+06:00" endTime="2014-12-03T14:40:02.7240390+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c1ef8f9-8fb1-46bc-809c-c41420f7fbbc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.Form1ConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b2d2836-50f6-4c49-8076-b114d3784bad" testId="7860d87f-fb4f-47b4-6fce-5fbd724daa6f" testName="CutPressPart2Test" computerName="YELISEY-PROF" duration="00:00:00.0113094" startTime="2014-12-03T14:40:02.7310465+06:00" endTime="2014-12-03T14:40:02.7540662+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b2d2836-50f6-4c49-8076-b114d3784bad">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutPressPart2Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutPressPart2(ksEntity entitySketch)
+   в ShaftTestProject.MainShaftTest.CutPressPart2Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 225
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0a0f890b-7670-4229-a4e3-6bbc3e9041c2" testId="7873fd56-0b18-f000-0bc3-0a70d2268218" testName="ThreadStepsTest" computerName="YELISEY-PROF" duration="00:00:00.0027066" startTime="2014-12-03T14:40:02.7640756+06:00" endTime="2014-12-03T14:40:02.7770877+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a0f890b-7670-4229-a4e3-6bbc3e9041c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.ThreadStepsTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 183
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df0c16d5-1c73-497b-95fc-79d72caaa5f7" testId="7a354be7-9d79-adbd-ef71-b56827ba4fcf" testName="CutObjectTest" computerName="YELISEY-PROF" duration="00:00:00.0107778" startTime="2014-12-03T14:40:02.7810921+06:00" endTime="2014-12-03T14:40:02.8031108+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df0c16d5-1c73-497b-95fc-79d72caaa5f7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutObjectTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutObject(ksEntity entitySketch)
+   в ShaftTestProject.MainShaftTest.CutObjectTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 186
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f53c9ebc-f2dc-4b69-8638-dba6af635b11" testId="8424ed0f-1d6a-c2a5-8239-e7b1cbe96fae" testName="CutSlotsTest" computerName="YELISEY-PROF" duration="00:00:00.0023332" startTime="2014-12-03T14:40:02.8061139+06:00" endTime="2014-12-03T14:40:02.8191253+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f53c9ebc-f2dc-4b69-8638-dba6af635b11">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.CutSlotsTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 266
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f8d31cba-8bef-4b2c-9d72-907f6d71c2e6" testId="8c180423-0e20-97ac-a227-d8df1b0cd5fb" testName="PressSecondShaft3Test" computerName="YELISEY-PROF" duration="00:00:00.0026312" startTime="2014-12-03T14:40:02.8251315+06:00" endTime="2014-12-03T14:40:02.8401443+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8d31cba-8bef-4b2c-9d72-907f6d71c2e6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.PressSecondShaft3Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 320
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="486ef500-d46a-4f3c-9a71-7db530af86f1" testId="90d2e31d-00fe-bd79-9c65-c0f00bc7899a" testName="ShaftCutPress4Test" computerName="YELISEY-PROF" duration="00:00:00.0130306" startTime="2014-12-03T14:40:02.8441487+06:00" endTime="2014-12-03T14:40:02.8691709+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="486ef500-d46a-4f3c-9a71-7db530af86f1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.ShaftCutPress4Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.ShaftCutPress4()
+   в ShaftTestProject.MainShaftTest.ShaftCutPress4Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 421
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5a22da4-9601-4af1-b8fd-cb2f5b7bedce" testId="91424932-3a26-c6fe-09a3-88f9b79ca0f9" testName="WidthSlotsTest" computerName="YELISEY-PROF" duration="00:00:00.0022943" startTime="2014-12-03T14:40:02.8731745+06:00" endTime="2014-12-03T14:40:02.8851853+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5a22da4-9601-4af1-b8fd-cb2f5b7bedce">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.WidthSlotsTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 195
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="170b7e41-9d89-435a-9b52-bb705c90b13e" testId="92758e3d-f21e-6bdc-d667-242c6602bc2d" testName="DataContainer4HoleConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0018451" startTime="2014-12-03T14:40:02.8891893+06:00" endTime="2014-12-03T14:40:02.9022019+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="170b7e41-9d89-435a-9b52-bb705c90b13e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.DataContainer4HoleTest.DataContainer4HoleConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainer4HoleTest.cs:строка 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a008d4b-f2a8-47b9-b75c-8ed063b76916" testId="9389fba1-e1cf-e0e1-b16e-2fbf5b66006a" testName="CutPressPart4Test" computerName="YELISEY-PROF" duration="00:00:00.0133724" startTime="2014-12-03T14:40:02.9062047+06:00" endTime="2014-12-03T14:40:02.9312273+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a008d4b-f2a8-47b9-b75c-8ed063b76916">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutPressPart4Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutPressPart4(ksEntity entitySketch)
+   в ShaftTestProject.MainShaftTest.CutPressPart4Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 251
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31d93a85-af03-4614-a177-4b3e6bb54a2c" testId="97efb2d1-8907-be84-d929-4b8e1fa3252d" testName="SpecificationData_InformationForSpecificationConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0021430" startTime="2014-12-03T14:40:02.9342300+06:00" endTime="2014-12-03T14:40:02.9512450+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31d93a85-af03-4614-a177-4b3e6bb54a2c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.SpecificationData_InformationForSpecificationTest.SpecificationData_InformationForSpecificationConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\SpecificationData_InformationForSpecificationTest.cs:строка 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="413d1e75-0340-4e1f-8671-956c6052557a" testId="9948cd9a-0098-d161-23c2-539b36a507ca" testName="PressShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0056046" startTime="2014-12-03T14:40:02.9562499+06:00" endTime="2014-12-03T14:40:02.9752671+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="413d1e75-0340-4e1f-8671-956c6052557a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftTest.PressShaftTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaft_Accessor.PressShaft(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftTest.PressShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 198
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e359f7ac-03e5-4303-b549-330fa32f1a8c" testId="9b3af545-508a-8763-e154-96f42bff9e2d" testName="DrivenShaftSamplesTest" computerName="YELISEY-PROF" duration="00:00:00.0026343" startTime="2014-12-03T14:40:02.9802728+06:00" endTime="2014-12-03T14:40:02.9922848+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e359f7ac-03e5-4303-b549-330fa32f1a8c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainer8HoleTest.DrivenShaftSamplesTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainer8HoleTest.cs:строка 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e0df41f5-94e8-4fa0-8a40-2d6195b540a1" testId="9cf2be44-bb36-c2ec-e697-8a039e61eeb0" testName="PressSecondShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0067614" startTime="2014-12-03T14:40:02.9992892+06:00" endTime="2014-12-03T14:40:03.0173043+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0df41f5-94e8-4fa0-8a40-2d6195b540a1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftTest.PressSecondShaftTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaft_Accessor.PressSecondShaft(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftTest.PressSecondShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 123
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="84a0e155-aeff-4a30-bff8-7accc815025e" testId="a30fc50e-6244-3f91-aa09-6afebc5cfb10" testName="HeightOfGearTest" computerName="YELISEY-PROF" duration="00:00:00.0026585" startTime="2014-12-03T14:40:03.0223092+06:00" endTime="2014-12-03T14:40:03.0353205+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84a0e155-aeff-4a30-bff8-7accc815025e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.HeightOfGearTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 123
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ac81f7b-3e67-4b29-8d6c-6212435af381" testId="a339769a-f19f-5f9f-8506-3a6dc2f06f7a" testName="PressSecondShaft3Test" computerName="YELISEY-PROF" duration="00:00:00.0057359" startTime="2014-12-03T14:40:03.0403258+06:00" endTime="2014-12-03T14:40:03.0573404+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ac81f7b-3e67-4b29-8d6c-6212435af381">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftTest.PressSecondShaft3Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaft_Accessor.PressSecondShaft3(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftTest.PressSecondShaft3Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 153
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d302414a-5380-4d85-a1e9-8d5efaa1f9eb" testId="b1d75003-436a-a755-b815-59d12c15ab43" testName="CreateSlotsTest" computerName="YELISEY-PROF" duration="00:00:00.0115496" startTime="2014-12-03T14:40:03.0603443+06:00" endTime="2014-12-03T14:40:03.0823634+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d302414a-5380-4d85-a1e9-8d5efaa1f9eb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CreateSlotsTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CreateSlots()
+   в ShaftTestProject.MainShaftTest.CreateSlotsTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="524bb651-60d3-4784-9fa2-f397ea197b07" testId="b5a04753-7953-3fb6-e4a2-8a771f1a3973" testName="PressSecondShaft5Test" computerName="YELISEY-PROF" duration="00:00:00.0058772" startTime="2014-12-03T14:40:03.0853665+06:00" endTime="2014-12-03T14:40:03.1013806+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="524bb651-60d3-4784-9fa2-f397ea197b07">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftTest.PressSecondShaft5Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaft_Accessor.PressSecondShaft5(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftTest.PressSecondShaft5Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 183
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="88f3d509-bda3-44e5-acea-3fe693098ebb" testId="b84fe6c8-73af-f0a2-4a45-74e2043065a4" testName="SpecificationDataConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0020907" startTime="2014-12-03T14:40:03.1063851+06:00" endTime="2014-12-03T14:40:03.1183956+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88f3d509-bda3-44e5-acea-3fe693098ebb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.SpecificationDataTest.SpecificationDataConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\SpecificationDataTest.cs:строка 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="01a92c9e-84cc-4714-bb43-2e9ce67bfda2" testId="b866ecb4-b898-0e07-4ee8-e67982ee1858" testName="ksSpcObjectEndTest" computerName="YELISEY-PROF" duration="00:00:00.0062533" startTime="2014-12-03T14:40:03.1213994+06:00" endTime="2014-12-03T14:40:03.1374181+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01a92c9e-84cc-4714-bb43-2e9ce67bfda2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.ksSpecificationTest.ksSpcObjectEndTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>    в ShaftTestProject.ksSpecificationTest.ksSpcObjectEndTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\ksSpecificationTest.cs:строка 137
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b502966a-5b1c-4b6f-9258-743d40236169" testId="bb66ea15-355a-5735-870c-e82208a5e7a4" testName="InitializeComponentTest" computerName="YELISEY-PROF" duration="00:00:00.0269862" startTime="2014-12-03T14:40:03.1404162+06:00" endTime="2014-12-03T14:40:03.1774477+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b502966a-5b1c-4b6f-9258-743d40236169">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.InitializeComponentTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c4cd8f48-2533-42f3-881a-aa201358667e" testId="beaa813a-0da9-f2fb-9ff8-77ceae3742f2" testName="MainShaftConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0012900" startTime="2014-12-03T14:40:03.1794519+06:00" endTime="2014-12-03T14:40:03.1864563+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4cd8f48-2533-42f3-881a-aa201358667e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.MainShaftConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a4f6fbc-b7b5-43e0-9706-2541cf1dea3f" testId="c12dd1e5-ff50-1def-0e0b-a7b2fdb0c829" testName="PressSecondShaft2Test" computerName="YELISEY-PROF" duration="00:00:00.0032925" startTime="2014-12-03T14:40:03.1884600+06:00" endTime="2014-12-03T14:40:03.1964668+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a4f6fbc-b7b5-43e0-9706-2541cf1dea3f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftTest.PressSecondShaft2Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaft_Accessor.PressSecondShaft2(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftTest.PressSecondShaft2Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 138
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6bd06c5f-1c98-41a5-871e-938885c02d06" testId="c1657180-3b74-bac2-7539-7c113940f140" testName="CutForSecondShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0056678" startTime="2014-12-03T14:40:03.1984683+06:00" endTime="2014-12-03T14:40:03.2094767+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bd06c5f-1c98-41a5-871e-938885c02d06">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutForSecondShaftTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutForSecondShaft(ksEntity entitySketch)
+   в ShaftTestProject.MainShaftTest.CutForSecondShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 173
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="baf42945-5cc1-4581-bf7e-f38a5dadc862" testId="c63c9d72-c3d9-ca84-6d26-d59d05cf8f17" testName="PressBaseTest" computerName="YELISEY-PROF" duration="00:00:00.0050946" startTime="2014-12-03T14:40:03.2124813+06:00" endTime="2014-12-03T14:40:03.2224884+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="baf42945-5cc1-4581-bf7e-f38a5dadc862">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.PressBaseTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.PressBase()
+   в ShaftTestProject.MainShaftTest.PressBaseTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 277
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e42e272-8a2f-4bba-a938-696a9438fb26" testId="cc442b7a-91fe-b2e2-6288-126c0f3fb96a" testName="textBox4_TextChangedTest" computerName="YELISEY-PROF" duration="00:00:01.0182518" startTime="2014-12-03T14:40:03.2254934+06:00" endTime="2014-12-03T14:40:04.2644321+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e42e272-8a2f-4bba-a938-696a9438fb26">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.textBox4_TextChangedTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 183
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9301877-0f35-4a4f-9867-384e956cfafd" testId="ce9481f9-4cb6-20fb-6bb3-13db180c863b" testName="DataContainer_InformationAboutShaftConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0011995" startTime="2014-12-03T14:40:04.2674336+06:00" endTime="2014-12-03T14:40:04.2744388+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9301877-0f35-4a4f-9867-384e956cfafd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.DataContainer_InformationAboutShaftTest.DataContainer_InformationAboutShaftConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainer_InformationAboutShaftTest.cs:строка 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6c54295c-01dc-4f9e-b7da-e26f48c6b654" testId="cf4c71c5-8b5d-c27c-33b4-ae50c5bac898" testName="CutBaseTest" computerName="YELISEY-PROF" duration="00:00:00.0068219" startTime="2014-12-03T14:40:04.2764421+06:00" endTime="2014-12-03T14:40:04.2904533+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c54295c-01dc-4f9e-b7da-e26f48c6b654">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutBaseTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutBase()
+   в ShaftTestProject.MainShaftTest.CutBaseTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="646bf5f0-303a-47a9-9525-69ae5ca65e1f" testId="d238385f-3cb4-1fad-e056-ac0c5beda61f" testName="PressSecondShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0013658" startTime="2014-12-03T14:40:04.2924566+06:00" endTime="2014-12-03T14:40:04.2994633+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="646bf5f0-303a-47a9-9525-69ae5ca65e1f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.PressSecondShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 292
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b6af5de1-b684-4540-93d3-91693813b036" testId="d376c67c-63af-cf78-db90-577a0883be78" testName="ShaftCutPressTest" computerName="YELISEY-PROF" duration="00:00:00.0057667" startTime="2014-12-03T14:40:04.3014636+06:00" endTime="2014-12-03T14:40:04.3134760+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6af5de1-b684-4540-93d3-91693813b036">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.ShaftCutPressTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.ShaftCutPress()
+   в ShaftTestProject.MainShaftTest.ShaftCutPressTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 373
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee9d6f94-b520-47e7-8223-0bb5738931a4" testId="d58062f1-cac4-4509-c9e2-8b3cce8aebdb" testName="GetMediumAnglesByRadianTest" computerName="YELISEY-PROF" duration="00:00:00.0043200" startTime="2014-12-03T14:40:04.3154770+06:00" endTime="2014-12-03T14:40:04.3254860+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee9d6f94-b520-47e7-8223-0bb5738931a4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   в ShaftTestProject.MathLogicTest.GetMediumAnglesByRadianTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MathLogicTest.cs:строка 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="996f55e0-eef8-47cd-83b6-f2452d7b0fb6" testId="d7176968-2ca8-a303-3f04-c54deeeb5eb0" testName="ShaftCutPress2Test" computerName="YELISEY-PROF" duration="00:00:00.0048158" startTime="2014-12-03T14:40:04.3274875+06:00" endTime="2014-12-03T14:40:04.3384963+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="996f55e0-eef8-47cd-83b6-f2452d7b0fb6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.ShaftCutPress2Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.ShaftCutPress2()
+   в ShaftTestProject.MainShaftTest.ShaftCutPress2Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 397
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="38172239-9ede-424e-94fc-b1a3727d2670" testId="d7505a51-a3e5-35db-f19d-4214429d10fc" testName="ksSetSpcObjectColumnTextTest" computerName="YELISEY-PROF" duration="00:00:00.0034527" startTime="2014-12-03T14:40:04.3405000+06:00" endTime="2014-12-03T14:40:04.3495066+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38172239-9ede-424e-94fc-b1a3727d2670">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.ksSpecificationTest.ksSetSpcObjectColumnTextTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>    в ShaftTestProject.ksSpecificationTest.ksSetSpcObjectColumnTextTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\ksSpecificationTest.cs:строка 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b86cfda6-368c-4eac-8c55-f1d52e009d76" testId="d95b4666-1756-6443-75f9-19f17f608b8d" testName="CountOfHoleTest" computerName="YELISEY-PROF" duration="00:00:00.0027367" startTime="2014-12-03T14:40:04.3525097+06:00" endTime="2014-12-03T14:40:04.3595168+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b86cfda6-368c-4eac-8c55-f1d52e009d76">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   в ShaftTestProject.DataContainerTest.CountOfHoleTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainerTest.cs:строка 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da2ca2e7-302e-4323-b811-61ac80e7d77c" testId="dddfa262-bcb0-b9af-22a6-20d57080e2a0" testName="DrivenShaftConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0012107" startTime="2014-12-03T14:40:04.3625206+06:00" endTime="2014-12-03T14:40:04.3695247+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da2ca2e7-302e-4323-b811-61ac80e7d77c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.DrivenShaftTest.DrivenShaftConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dcede741-fc21-4a59-8af3-9e5a5cf35e67" testId="de3b0c2b-0a58-9aba-c381-204d8f6c5f44" testName="безСпецификацииToolStripMenuItem_ClickTest" computerName="YELISEY-PROF" duration="00:00:18.5774718" startTime="2014-12-03T14:40:04.3715276+06:00" endTime="2014-12-03T14:40:22.9543085+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcede741-fc21-4a59-8af3-9e5a5cf35e67">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.безСпецификацииToolStripMenuItem_ClickTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 253
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b179830-d4bf-4287-a988-d070adfac785" testId="e44d05e6-4ee4-6e9f-b161-ecccf3960dac" testName="PressSecondShaft2Test" computerName="YELISEY-PROF" duration="00:00:00.0417265" startTime="2014-12-03T14:40:22.9563111+06:00" endTime="2014-12-03T14:40:23.0033548+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b179830-d4bf-4287-a988-d070adfac785">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaft2Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaftFor8Hole_Accessor.PressSecondShaft2(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftFor8HoleTest.PressSecondShaft2Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftFor8HoleTest.cs:строка 138
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="38befbc0-ba42-46a0-ae75-7e7609e47589" testId="e593dedb-bd8f-877e-3ec8-3c28408ca8b0" testName="toolStripMenuItem1_ClickTest" computerName="YELISEY-PROF" duration="00:00:00.0375389" startTime="2014-12-03T14:40:23.0053554+06:00" endTime="2014-12-03T14:40:23.0503949+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38befbc0-ba42-46a0-ae75-7e7609e47589">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.toolStripMenuItem1_ClickTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 239
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc2b6787-e046-4f00-99f8-24d27fda7973" testId="e98d5c70-233c-e3ec-3da3-3b4dfc19cf35" testName="DataContainer8HoleConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0021392" startTime="2014-12-03T14:40:23.0523983+06:00" endTime="2014-12-03T14:40:23.0624069+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc2b6787-e046-4f00-99f8-24d27fda7973">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   в ShaftTestProject.DataContainer8HoleTest.DataContainer8HoleConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DataContainer8HoleTest.cs:строка 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea5d4550-dd85-44c4-a7ba-2357836ad1cc" testId="ecc56b62-9477-b8c2-8846-ff148cea0e59" testName="PressSecondShaft4Test" computerName="YELISEY-PROF" duration="00:00:00.0036810" startTime="2014-12-03T14:40:23.0644083+06:00" endTime="2014-12-03T14:40:23.0754191+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea5d4550-dd85-44c4-a7ba-2357836ad1cc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftTest.PressSecondShaft4Test threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.DrivenShaft_Accessor.PressSecondShaft4(ksSketchDefinition sketchDefinition, ksEntity entitySketch2)
+   в ShaftTestProject.DrivenShaftTest.PressSecondShaft4Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 168
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="43aa6a06-ac9c-4dc1-bc2f-32f2fb53c106" testId="ed782bb3-0dac-9a6f-7b19-5a12d302a20b" testName="CutPressObjectTest" computerName="YELISEY-PROF" duration="00:00:00.0048366" startTime="2014-12-03T14:40:23.0774213+06:00" endTime="2014-12-03T14:40:23.0874299+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43aa6a06-ac9c-4dc1-bc2f-32f2fb53c106">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.MainShaftTest.CutPressObjectTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>   в Shaft.MainShaft_Accessor.CutPressObject(ksEntity entitySketch)
+   в ShaftTestProject.MainShaftTest.CutPressObjectTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 199
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="96688dbd-ce2e-4f39-99fd-d0861a7cb668" testId="ef22a61d-29cf-381e-1946-f5dcca8f9e46" testName="button1_ClickTest" computerName="YELISEY-PROF" duration="00:00:17.0885457" startTime="2014-12-03T14:40:23.0894313+06:00" endTime="2014-12-03T14:40:40.1848694+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96688dbd-ce2e-4f39-99fd-d0861a7cb668">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.button1_ClickTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e56c8cf-8cb5-41fd-b935-719e565c67c9" testId="f303af86-3843-2e9e-d5dc-24e69185b6dd" testName="textBox5_TextChangedTest" computerName="YELISEY-PROF" duration="00:00:01.2549252" startTime="2014-12-03T14:40:40.1898755+06:00" endTime="2014-12-03T14:40:41.4580203+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e56c8cf-8cb5-41fd-b935-719e565c67c9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.textBox5_TextChangedTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 197
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8137e352-ad60-46c3-b1d9-f431dc9bdc97" testId="f7adb752-fb77-acd0-2377-b23e85c6a916" testName="GetCoordForSlotsTestBySixSlots" computerName="YELISEY-PROF" duration="00:00:00.0478355" startTime="2014-12-03T14:40:41.4730335+06:00" endTime="2014-12-03T14:40:41.5721230+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8137e352-ad60-46c3-b1d9-f431dc9bdc97">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;22&gt;. Actual:&lt;24&gt;. </Message>
+          <StackTrace>   в ShaftTestProject.MathLogicTest.GetCoordForSlotsTestBySixSlots() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MathLogicTest.cs:строка 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="66df6005-9776-4769-bfa7-18905a9ecae5" testId="f8799e58-5b16-e1e6-dcb6-94f4dde30d24" testName="PressSecondShaft4Test" computerName="YELISEY-PROF" duration="00:00:00.0028618" startTime="2014-12-03T14:40:41.5811311+06:00" endTime="2014-12-03T14:40:41.6351796+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66df6005-9776-4769-bfa7-18905a9ecae5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.MainShaftTest.PressSecondShaft4Test() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\MainShaftTest.cs:строка 334
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af07aeb7-cf3e-4a4c-bc84-f06fdc69925a" testId="fa6d0a82-7446-45a9-7340-d0ad95ef2be4" testName="CreateShaftTest" computerName="YELISEY-PROF" duration="00:00:00.0302577" startTime="2014-12-03T14:40:41.6401849+06:00" endTime="2014-12-03T14:40:41.6832226+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af07aeb7-cf3e-4a4c-bc84-f06fdc69925a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ShaftTestProject.DrivenShaftTest.CreateShaftTest threw exception: 
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.</Message>
+          <StackTrace>    в Shaft.MainShaft.CreateBase() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\Shaft\Shaft.cs:строка 116
+   в Shaft.DrivenShaft.CreateShaft() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\Shaft\DrivenShaftFor4Hole.cs:строка 109
+   в ShaftTestProject.DrivenShaftTest.CreateShaftTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\DrivenShaftTest.cs:строка 93
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d782e2d4-b4b1-44ba-934e-aabaf8cddbb0" testId="fac88ba4-b17f-7cd2-5dd8-71cedeed6a81" testName="textBox10_TextChangedTest" computerName="YELISEY-PROF" duration="00:00:00.8519035" startTime="2014-12-03T14:40:41.6862268+06:00" endTime="2014-12-03T14:40:42.5540093+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d782e2d4-b4b1-44ba-934e-aabaf8cddbb0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.textBox10_TextChangedTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 127
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="511e99fa-4e23-4d19-b601-36639c89b43f" testId="faf9075b-2377-2084-0f96-cba20252970e" testName="textBox6_TextChangedTest" computerName="YELISEY-PROF" duration="00:00:00.5919722" startTime="2014-12-03T14:40:42.5600148+06:00" endTime="2014-12-03T14:40:43.1695699+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="511e99fa-4e23-4d19-b601-36639c89b43f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.textBox6_TextChangedTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 211
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cfe142f4-00a3-4f1c-b128-a36c8f7dcebb" testId="fb5869dc-1fb4-3106-ead5-f9d228aecce1" testName="SpecificationGeneralConstructorTest" computerName="YELISEY-PROF" duration="00:00:00.0068038" startTime="2014-12-03T14:40:43.1755714+06:00" endTime="2014-12-03T14:40:43.1935915+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfe142f4-00a3-4f1c-b128-a36c8f7dcebb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Сборка&gt;. Actual:&lt;Чертеж&gt;. </Message>
+          <StackTrace>   в ShaftTestProject.SpecificationGeneralTest.SpecificationGeneralConstructorTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\SpecificationGeneralTest.cs:строка 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cfaa58f0-4740-4720-83ed-16c83170891d" testId="fd4da668-316c-9e96-c20a-cf2b54a9e309" testName="textBox2_TextChangedTest" computerName="YELISEY-PROF" duration="00:00:00.5945492" startTime="2014-12-03T14:40:43.1985922+06:00" endTime="2014-12-03T14:40:43.8031386+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfaa58f0-4740-4720-83ed-16c83170891d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   в ShaftTestProject.Form1Test.textBox2_TextChangedTest() в C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\Form1Test.cs:строка 155
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

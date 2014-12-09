@@ -1,0 +1,14 @@
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Release\Shaft.exe
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Release\Shaft.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Release\AxInterop.KGAXLib.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Release\KAPITypes.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Release\Shaft.Shaft.resources
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Release\Shaft.Help.resources
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Release\Shaft.Properties.Resources.resources
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Release\Shaft.Specification.resources
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Release\Shaft.csproj.GenerateResource.Cache
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Release\Shaft.exe
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Release\Shaft.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Release\nunit.framework.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\bin\Release\nunit.framework.xml
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\Shaft\obj\x86\Release\Shaft.csprojResolveAssemblyReference.cache

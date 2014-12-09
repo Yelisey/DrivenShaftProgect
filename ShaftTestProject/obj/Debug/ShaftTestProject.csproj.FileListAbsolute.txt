@@ -1,0 +1,11 @@
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Debug\ShaftTestProject.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Debug\ShaftTestProject.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Debug\AxInterop.KGAXLib.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Debug\KAPITypes.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Debug\Shaft.exe
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Debug\Shaft.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Debug\Shaft_Accessor.exe
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\bin\Debug\Shaft_Accessor.pdb
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\obj\Debug\ShaftTestProject.csprojResolveAssemblyReference.cache
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\obj\Debug\ShaftTestProject.dll
+C:\Users\Yelisey\Desktop\RSAPR\Новая папка\Shaft\ShaftTestProject\obj\Debug\ShaftTestProject.pdb
